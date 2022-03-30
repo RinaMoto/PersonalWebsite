@@ -8,10 +8,10 @@ JS, React
 
 ### Libraries used:
 
-Styled-Component
-Materials UI
-EmailJS
-Framer motion (For animations)
+Styled-Component<br>
+Materials UI<br>
+EmailJS<br>
+Framer motion (For animations)<br>
 Lottie (For illustrations)
 
 ### Color palette 
