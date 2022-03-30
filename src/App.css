@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+.App {
+  font-family: 'Averia Serif Libre', sans-serif;
+  color: black;
+}
+
+
+nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Averia Serif Libre', sans-serif;
+    font-weight: 1000;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  flex-wrap: none;
+  text-transform: uppercase;
+  margin-left: 0;
+  margin-right: 3vw;
+}
+
+
+nav ul li {
+  list-style-type: none;
+  padding: 2vw;
+}
+
+.list {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+nav ul li a { 
+  color: black;
+  float: left;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+.items {
+  cursor: pointer;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #8D9B6A;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+nav ul li a:hover::after, nav ul li a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  padding: 5px;
+  z-index: 10;
+}
+
+
+.logo {
+  float: right;
+  margin-left: auto;
+  display: flex;
+  size: 2.5rem;
+}
+
+.logo a {
+  padding-top: 4px;
+  margin: 0.2em;
+  min-width: 50px;
+}
+
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  margin: 10vh;
+  font-size: 2vw;
+}
+
+.title {
+  display: absolute;
+  float: center;
+  text-align: center;
+  padding-top: 80px;
+
+}
+
+h1 {
+  font-size: 5vw;
+  margin-top: 3vh;
+}
+
+.form {
+  padding: 2rem;
+  padding-top: 0px;
+}
+
+.paragraph {
+  padding-top: 5vh;
+  padding: 3rem;
+}
+
+
+.Creations-Container {
+  margin-top: 7vh;
+  padding-bottom: 20vh;
+}
+
+.Blog-Container {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 20vh;
+}
+
+.Blog-Paragraph {
+  margin: 0px 10vw 0px 10vw;
+}
+
+.About-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.About-Paragraph {
+  padding: 20vh 0 20vh 0;
+  margin: auto;
+}
+
+.About-Container .words {
+    width: 440px;
+} 
+
+.image {
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 3rem;
+}
+
+.noFace {
+  font-size: 20px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.Contact-Container {
+  padding-top: 5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .About-Container .image {
+    float: right;
+    margin-top: 3rem;
+    margin-right: 4rem;
+  }
+  
+  .About-Container .words {
+    width: 500px;
+    float: left;
+  } 
+
+  .About-Container {
+    padding: 25px;
+  }
+
+  .About-Paragraph {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    font-size: 22px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .image {
+    width: 100%;
+    max-height: 350px;
+    float: center;
+  }
+  
+  .About-Container .words {
+    width: 300px;
+    float: center;
+    padding: 15px;
+  } 
+
+  .About-Container {
+    padding: 20px;
+  }
+
+  .noFace {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Container {
+    padding-top: 5vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .About-Container, .About-Paragraph {
+    padding-top: 7vh;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p, ul{
+    font-size: 18px;
+  }
+}
+
+.Rina {
+  color: #8B9FA9;
+}
+
+.Button {
+  float: 2vh;
+  font-family: 'Averia Serif Libre', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .Button {
+    font-size: 5px;
+  }
+}
+
