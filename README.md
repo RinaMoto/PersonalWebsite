@@ -1,6 +1,6 @@
 # My Personal Website
 
-https://Rina-moto.com
+https://Rinamoto.com
 
 ### Technologies used:
 
