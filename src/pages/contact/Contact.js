@@ -1,10 +1,9 @@
-import {animations, item} from "../animations/AnimatedPage.js";
+import {animations, item} from "../../components/animations/AnimatedPage.js";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Button, Box, TextField, makeStyles, Grid } from '@material-ui/core';
 import { motion } from "framer-motion";
-
-require('dotenv').config();
+import './Contact.css';
 
 const isMobile = window.innerWidth < 768;
 const attributes = !isMobile ? animations : "none";
@@ -18,9 +17,9 @@ const useStyles = makeStyles({
 })
 
 export default function Contact() {
-    var myKey = process.env.SERVICE;
-    var template = process.env.TEMPLATE;
-    var key = process.env.KEY;
+    var myKey = process.env.REACT_APP_SERVICE;
+    var template = process.env.REACT_APP_TEMPLATE;
+    var key = process.env.REACT_APP_KEY;
 
     const classes = useStyles()
 
@@ -45,7 +44,6 @@ export default function Contact() {
             <motion.div variants={items} className="title">
                 <h1>Contact</h1>
             </motion.div>
-           
                 <motion.div variants={items} className="form">
                 <Grid
                     container
@@ -74,7 +72,6 @@ export default function Contact() {
                             variant="outlined" 
                             fullWidth
                         />
-                       
                         <TextField 
                             className={classes.field}
                             type="text" 
@@ -84,7 +81,6 @@ export default function Contact() {
                             variant="outlined" 
                             fullWidth
                         />
-                  
                         <TextField 
                             required 
                             className={classes.field}

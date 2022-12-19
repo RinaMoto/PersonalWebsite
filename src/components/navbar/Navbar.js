@@ -2,9 +2,10 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import {motion} from 'framer-motion';
 import {AiFillGithub, AiOutlineTwitter} from "react-icons/ai";
-import {SiGhost} from "react-icons/si";
+import {SiHashnode} from "react-icons/si";
 import MenuIcon from '@mui/icons-material/Menu';
 import {Drawer, List, ListItem, ListItemText, makeStyles} from '@material-ui/core';
+import './navbar.css';
 
 const animations = {
     whileHover: {scale:1},
@@ -40,7 +41,7 @@ function Navbar() {
                             <li><Link to="/creations" className="items">/creations</Link></li>
                             <li><Link to="/contact" className="items">/contact</Link></li>
                             <li className="logo">
-                                <a href="https://rina.ghost.io/" className="items"><SiGhost/></a>
+                                <a href="https://rinamoto.hashnode.dev/" className="items"><SiHashnode/></a>
                                 <a href="https://github.com/RinaMoto" className="items"><AiFillGithub/></a>
                                 <a href="https://twitter.com/RinaTheUsagi" className="items"><AiOutlineTwitter /></a>
                             </li>
@@ -85,13 +86,13 @@ function Navbar() {
                                 </ListItem>
                             </Link>
 
-                            <ListItem button component="a" href="https://rina.ghost.io/">
+                            <ListItem button component="a" href="https://rinamoto.hashnode.dev/">
                                 <ListItemText disableTypography
-                                    primary="Ghost Blog"
+                                    primary="HashNode"
                                     style={{ fontFamily: "Averia Serif Libre", color: "black", fontSize: '30px' }} />
                             </ListItem>
 
-                            <ListItem button component="a" href="https://github.com/RinaTheUsagi">
+                            <ListItem button component="a" href="https://github.com/RinaMoto">
                                 <ListItemText disableTypography
                                     primary="Github" 
                                     style={{ fontFamily: "Averia Serif Libre", color: "black", fontSize: '30px' }}/>

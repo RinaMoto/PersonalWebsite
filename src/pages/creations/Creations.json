@@ -1,0 +1,66 @@
+[
+    {
+        "projectID": 1,
+        "projectName": "Stock History Analyzer [In Progress]",
+        "description": "application to analyze historial data of a given stock",
+        "image": "https://user-images.githubusercontent.com/75461311/208372312-5b9da827-b718-420b-87fc-28b52cf00d23.png",
+        "languages": "HTML, JavaScript, PHP, CSS",
+        "link": "https://github.com/RinaMoto/StockHistoryAnalyzer"
+    },
+    {
+        "projectID": 2,
+        "projectName": "Sort Visualizer",
+        "description": "a visualization tool for sorting algorithms: merge sort, quick sort, bubble sort, heap sort, radix sort, and tim sort. It allows users to select up to two sorting algorithms and adjust the array size.",
+        "image": "https://user-images.githubusercontent.com/75461311/208352189-d3cf338f-0040-4099-9a82-ad60d7ab83f9.png",
+        "languages": "React, JavaScript, TailwindCSS",
+        "link": "https://github.com/RinaMoto/algovisualizer"
+    },
+    {
+        "projectID": 3,
+        "projectName": "My Personal Website",
+        "description": "my personal website in React.JS using materials UI, Styled-component, Framer motion, EmailJS, and Lottie files.",
+        "image": "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/01/3.-Jiji.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+        "languages": "React, JavaScript, CSS",
+        "link": "https://github.com/RinaMoto/PersonalWebsite"
+    },
+    {
+        "projectID": 4,
+        "projectName": "Gandalf's Academy",
+        "description": "mySQL database web application that administers students, professors, classes, books, spells, schedules, and houses. It includes CRUD functions.",
+        "image": "https://user-images.githubusercontent.com/75461311/174456810-deb98dcb-164e-4f5b-b376-b91a6c9fca0a.png",
+        "languages": "HTML, CSS, mySQL, Node.js",
+        "link": "https://github.com/RinaMoto/Gandalfs-Academy"
+    },
+    {
+        "projectID": 5,
+        "projectName": "Client Server Chat",
+        "description": "Client Server Chat that uses sockets to allow multiple clients to connect to a server",
+        "image": "https://miro.medium.com/max/710/1*kPTE6jrY-ehY64GyFpe8fA.jpeg",
+        "languages": "Python",
+        "link": "https://github.com/RinaMoto/Client-Server-Chat"
+    },
+    {
+        "projectID": 6,
+        "projectName": "Tiny Shell Project",
+        "description": "bash-like shell application that runs command line instructions.",
+        "image": "https://codes.pratikkataria.com/wp-content/uploads/2016/10/shell.png",
+        "languages": "C",
+        "link": "https://github.com/RinaMoto/Smallsh"
+    },
+    {
+        "projectID": 7,
+        "projectName": "Exercise Tracker",
+        "description": "full stack MERN single page application that tracks exercises by name, reps, weight, weight units, date.",
+        "image": "https://user-images.githubusercontent.com/75461311/208186651-9d6fd86b-a1df-4ce3-998f-670f46d45ae1.png",
+        "languages": "React, REST API, Node, Express, MongoDB",
+        "link": "https://github.com/RinaMoto/ExerciseTracker"
+    },
+    {
+        "projectID": 8,
+        "projectName": "HashMap project",
+        "description": "Implementation of a HashMap data structure using Chaining and Open Addressing with Quadratic Probing.",
+        "image": "https://media.geeksforgeeks.org/wp-content/uploads/20200707191246/HashMapStructure-660x545.jpg",
+        "languages": "Python",
+        "link": "https://github.com/RinaMoto/HashMap"
+    }
+]

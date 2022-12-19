@@ -1,0 +1,73 @@
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    margin: 10vh;
+    font-size: 2vw;
+}
+
+.title {
+    display: absolute;
+    float: center;
+    text-align: center;
+    padding-top: 80px;
+}
+  
+h1 {
+    font-size: 5vw;
+    margin-top: 3vh;
+}
+
+.form {
+    padding: 2rem;
+    padding-top: 0px;
+}
+
+.paragraph {
+    padding-top: 5vh;
+    padding: 3rem;
+}
+
+.noFace {
+    font-size: 20px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.Rina {
+    color: #8B9FA9;
+}
+  
+.Button {
+    float: 2vh;
+    font-family: 'Averia Serif Libre', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    .paragraph {
+        margin: 1em;
+        padding: 1em;
+      }
+    .noFace {
+      padding-top: 0;
+    }
+  }
+  
+@media screen and (max-width: 1200px) {
+    .Container {
+      padding-top: 5vh;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p, ul{
+      font-size: 18px;
+    }
+  }

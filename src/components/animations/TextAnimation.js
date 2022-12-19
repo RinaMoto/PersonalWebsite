@@ -29,7 +29,7 @@ export default function TextAnimation() {
         }, 40)
 
         return () => clearTimeout(timer)
-    }, [])
+    }, [heyArray])
 
     return (
         <Wrapper>

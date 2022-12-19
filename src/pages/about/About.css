@@ -1,0 +1,86 @@
+
+
+.AboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1px;
+  }
+  
+.AboutParagraph {
+    padding: 20vh 0 20vh 0;
+    margin: auto;
+} 
+
+.image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 3rem;
+    max-width: 100%;
+    width: 40vh;
+    height: auto;
+}
+
+.techStackContainer {
+    columns: 2 auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+p, ul{
+    font-size: 18px;
+}
+
+@media screen and (min-width: 1200px) {
+    .AboutContainer .image {
+        float: right;
+        margin-top: 3rem;
+        margin-right: 4rem;
+    }
+
+    .AboutContainer .AboutParagraphText {
+        width: 500px;
+        float: left;
+    } 
+
+    .AboutContainer {
+        padding: 25px;
+        margin-top: 2px;
+    }
+
+    .AboutParagraph {
+        padding-top: 15vh;
+        display: flex;
+        font-size: 22px;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+  
+@media only screen and (max-width: 1200px) { 
+    .AboutParagraph{
+        width: 500px;
+    }
+}
+  
+@media screen and (max-width: 800px) {
+    .AboutContainer, .AboutParagraph {
+        width: 100%;
+        margin: auto;
+        padding-top: 5vh;
+    }
+
+    .AboutContainer {
+        width: 100%;
+    }
+
+    .AboutParagraphText {
+        margin: 3vh;
+    }
+}

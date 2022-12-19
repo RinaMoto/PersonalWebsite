@@ -1,17 +1,15 @@
 import React from 'react';
-import Contact from './components/contact/Contact.js';
+import Contact from './pages/contact/Contact.js';
 import './App.css';
-import theme from './components/theme.js'
+import theme from './theme/theme.js'
 import Navbar from "./components/navbar/Navbar.js";
-import Home from "./components/home/Home.js";
-import About from "./components/about/About.js";
-import Creations from "./components/creations/Creations.js";
-
+import Home from "./pages/home/Home.js";
+import About from "./pages/about/About.js";
+import Creations from "./pages/creations/Creations.js";
 
 import { AnimatePresence } from 'framer-motion';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 
 export default function App() {
 

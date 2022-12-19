@@ -1,0 +1,23 @@
+.Creations-Container {
+    margin: 0 4em;
+    padding-bottom: 20vh;
+}
+
+.title {
+    padding-top: 15vh;
+}
+
+@media screen and (max-width: 480px) {
+    .Creations-Container {
+        margin: 0;
+    }
+    .title {
+        padding-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Creations-Container {
+        margin: 0 1em;
+    }
+}

@@ -1,0 +1,15 @@
+.Contact-Container {
+    margin: 0 4em;
+  }
+  
+@media screen and (max-width: 480px) {
+    .Contact-Container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Contact-Container {
+        margin: 0 1em;
+    }
+}
